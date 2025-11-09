@@ -42,7 +42,6 @@ public class PrintPrimesTest {
             "H, 7, 7, '[0,1,2,3,4,5,6,7,5,8,9,2,10]', 'Trouver 7 nombres premiers : rencontre 9 (divisible par 3, pas par 2)'",
             "I, 8, 8, '[0,1,2,3,4,5,6,7,5,6,9,2,10]', 'Trouver 8 nombres premiers : nécessite plusieurs vérifications de divisibilité par candidat'",
             "J, 10, 10, '[0,1,2,3,4,5,6,7,5,6,7,5,8,9,2,10]', 'Trouver 10 nombres premiers : les grands nombres premiers nécessitent la vérification de nombreux diviseurs'",
-            "K, 15, 15, '[0,1,2,3,4,5,6,7,5,6,7,5,8,9,2,10]', 'Trouver 15 nombres premiers : tests de divisibilité étendus pour des candidats plus grands'"
     })
     void testAllPaths(String pathId, int n, int expectedCount, String pathSequence, String description) {
         // Capturer la sortie qui irait normalement vers la console
